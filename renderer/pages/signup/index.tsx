@@ -1,19 +1,19 @@
 import styled from '@emotion/styled';
 
-const LoginWrapper = styled.section`
+const SignupWrapper = styled.section`
   max-width: 400px;
   width: 100%;
-  height: 550px;
+  height: 100%;
   margin: 0 auto;
   border: 1px solid black;
 `;
 
-function Login () {
+function Signup () {
   return (
-    <LoginWrapper>
+    <SignupWrapper>
       
-    </LoginWrapper>
+    </SignupWrapper>
   );
 }
 
-export default Login;
+export default Signup
