@@ -1,17 +1,23 @@
 import styled from '@emotion/styled';
+import LoginForm from './LoginForm';
 
 const LoginWrapper = styled.section`
   max-width: 400px;
   width: 100%;
-  height: 550px;
   margin: 0 auto;
-  border: 1px solid black;
+`;
+
+const LoginTitle = styled.h2`
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
 `;
 
 function Login () {
   return (
     <LoginWrapper>
-      
+      <LoginTitle> 로그인 </LoginTitle>
+      <LoginForm />
     </LoginWrapper>
   );
 }

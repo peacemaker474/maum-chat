@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "electron-serve": "^1.1.0",
-    "electron-store": "^8.1.0"
+    "electron-store": "^8.1.0",
+    "firebase": "^9.15.0"
   },
   "devDependencies": {
     "@emotion/babel-plugin": "^11.10.2",
